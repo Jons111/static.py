@@ -178,8 +178,8 @@
 
 @media (max-width: 640px) {
   .container {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 12px;
+    padding-right: 14px;
   }
   .hero {
     background-size: 509px 484px;
@@ -333,5 +333,61 @@
       font-weight: 550;
       line-height: 17px;
       letter-spacing: 0em;
+  }
+}
+
+
+@media(max-width: 880px){
+  .contact__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-family: "Inter";
+  }
+  .contact__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 10px;
+  }
+  .contact__input {
+    font-size: 14px;
+    min-width: 244px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 13px 20px;
+    font-family: "Inter";
+  }
+
+  .footer-col:last-child{
+    border-top: 1px solid #222;
+    padding-top: 20px;
+  }
+}
+
+@media(max-width: 880px){
+  .contact__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    margin-bottom: 20px;
+    font-family: "Inter";
+  }
+  .contact__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 10px;
+  }
+  .contact__input {
+    font-size: 14px;
+    min-width: 184px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 13px 20px;
+    font-family: "Inter";
   }
 }
