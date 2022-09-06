@@ -1,0 +1,80 @@
+@media (max-width:720px){
+    .about__hero{
+        padding-top: 60px;
+        padding-bottom: 57px;
+    }
+    .about__hero__container {
+        align-items: center;
+    }
+    .about__hero__img {
+        width: 165px;
+        height: 220px;
+    }
+    .about__hero__info-title {
+        font-size: 36px;
+        font-weight: 550;
+        line-height: 40px;
+        margin-bottom: 10px;
+
+    }
+    .about__hero__info-text {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 16px;
+    }
+    .about__info{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    .about__info:not(:last-child){
+        margin-bottom: 10px;
+      }
+      .about__info-strong-text{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25px;
+
+      }
+
+      .about__activity__title{
+        font-size: 24px;
+        font-weight: 550;
+        line-height: 24px;
+
+      }
+      .about__activity-images{
+        gap: 19px;
+      }
+      .about__activity-images img{
+        max-width: 140px;
+        width: 100%;
+      }
+}
+
+@media (max-width:600px){
+    .about__hero{
+        padding-top: 40px;
+        padding-bottom: 37px;
+    }
+    .about__hero__container {
+        align-items: center;
+        flex-direction: column;
+    }
+    .about__hero__img {
+        width: 165px;
+        height: 220px;
+    }
+    .about__hero__info-title {
+        font-size: 36px;
+        font-weight: 550;
+        line-height: 40px;
+        margin-bottom: 10px;
+
+    }
+    .about__hero__info-text {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 16px;
+    }
+}
