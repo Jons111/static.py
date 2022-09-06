@@ -433,7 +433,6 @@ button {
   padding-bottom: 20px;
 }
 .article__content{
-  border: 1px solid red;
   position: relative;
   transition: color .3s ease  , opacity .3s ease;
 }
@@ -513,7 +512,6 @@ button {
 
 .side-bar__articles-list {
   margin-bottom: 30px;
-  border: 1px solid red;
 }
 
 .side-bar__article-item:not(:last-child) {
@@ -521,7 +519,6 @@ button {
 }
 
 .side-bar__article-item{
-  border: 2px solid red ;
   position: relative;
 }
 
@@ -961,7 +958,6 @@ select:-webkit-autofill:focus {
 /* about  */
 
 .about__hero {
-  border: 1px solid red;
   padding-top: 60px;
   padding-bottom: 60px;
 }
