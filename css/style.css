@@ -983,6 +983,7 @@ select:-webkit-autofill:focus {
 }
 .yellow {
   background-color: #ffc017;
+  padding: 0 10px;
 }
 .about__hero__info-text {
   font-family: HelveticaNeueCyr;
@@ -1071,3 +1072,70 @@ font-weight: 700;
 .articl{
   padding-top: 60px;
 }
+
+.site-main.blog{
+  padding-top: 60px;
+}
+
+.blog__container{
+  max-width: 720px;
+  width: 100%;
+}
+
+.blog__img{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.blog__title{
+  font-family: HelveticaNeueCyr;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 40px;
+
+}
+
+.blog__text:not(:last-child){
+
+font-family: Georgia;
+font-size: 21px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 40px;
+}
+
+.blog__text strong{
+  display: block;
+  font-family: HelveticaNeueCyr;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+
+.useful-articles-title{
+  font-family: HelveticaNeueCyr;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  margin-bottom: 10px;
+
+}
+
+.line{
+  border: none;
+  height: 1px ;
+  width: 100%;
+  background-color: #A9A9A9;
+  margin-bottom: 20px;
+}
+

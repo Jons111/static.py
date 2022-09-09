@@ -415,3 +415,17 @@
     font-family: "Inter";
   }
 }
+
+@media(max-width:900px){
+  .useful-articles .col-4{
+    display: block;
+  }
+ 
+}
+
+@media(max-width:720px){
+  .useful-articles .col-4{
+    display: flex;
+  }
+ 
+}
